@@ -1,0 +1,43 @@
+# >>> line-endings (managed) >>>
+# Store text as LF and check it out as LF on every OS.
+* text=auto eol=lf
+
+# Windows-only scripts get CRLF on checkout so they run
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.sln text eol=crlf
+
+# Never touch binaries
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.webp binary
+*.pdf binary
+*.zip binary
+*.gz binary
+*.7z binary
+*.tar binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.otf binary
+*.eot binary
+*.bin binary
+*.elf binary
+*.uf2 binary
+*.a binary
+*.o binary
+*.so binary
+*.dll binary
+*.exe binary
+*.lib binary
+*.stl binary
+*.3mf binary
+*.sldprt binary
+*.sldasm binary
+*.slddrw binary
+*.f3d binary
+*.dwg binary
+# <<< line-endings (managed)

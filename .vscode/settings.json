@@ -1,0 +1,3 @@
+{
+    "window.title": "handbook - ${activeRepositoryBranchName}${separator}${activeEditorShort}${dirty}"
+}
