@@ -10,6 +10,6 @@
 | 6 | Holdouts hosting | Open | Private repository per deployment; the access model for the T3 independent verification owner. |
 | 7 | Model diversity for oracle vs build | Open | An experiment first, or required at T3? |
 | 8 | glitch-guardian scope | Open | Document its responsibilities so overlap with task-tactician is avoided. |
-| 9 | Discipline-pack interface | Deferred | Formalise once the software pack is proven (Phase 4). |
+| 9 | Discipline-pack interface | Deferred | Formalise once the software pack is proven (roadmap milestone M7). |
 | 10 | Non-Rust toolchains | Deferred | C# and TypeScript mappings are documented in [oracles.md](architecture/oracles.md) but not built. |
 | 11 | Workflow-engine durability | Closed | Not needed. CogWorks is a step function, and waits are GitHub state (ADR-0001, ADR-0002). |
